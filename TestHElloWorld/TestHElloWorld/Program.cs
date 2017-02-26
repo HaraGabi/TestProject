@@ -10,7 +10,9 @@ namespace TestHElloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Speak your mind!");
+            string message = Console.ReadLine();
+            Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
             Console.ReadKey();
         }
     }
