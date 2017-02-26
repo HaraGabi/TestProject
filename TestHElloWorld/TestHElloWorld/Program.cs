@@ -8,8 +8,10 @@ namespace TestHElloWorld
 {
     class Program
     {
+        public static string Greetings() => "Hello!";
         static void Main(string[] args)
         {
+            Console.WriteLine(Greetings());
             Console.WriteLine("Speak your mind!");
             string message = Console.ReadLine();
             Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
