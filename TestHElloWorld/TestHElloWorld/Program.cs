@@ -12,7 +12,7 @@ namespace TestHElloWorld
         static void Main(string[] args)
         {
             Console.WriteLine(Greetings());
-            Console.WriteLine("Speak your mind!");
+            Console.WriteLine("Beleediteltem!");
             string message = Console.ReadLine();
             Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
             Console.ReadKey();
