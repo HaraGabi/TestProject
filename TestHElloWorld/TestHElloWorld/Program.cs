@@ -13,7 +13,7 @@ namespace TestHElloWorld
         {
             Console.WriteLine(Greetings());
             Console.WriteLine("Belediteltem!");
-            Console.WriteLine("Kurva");
+            Console.WriteLine("MArhas");
             string message = Console.ReadLine();
             Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
             Console.ReadKey();
