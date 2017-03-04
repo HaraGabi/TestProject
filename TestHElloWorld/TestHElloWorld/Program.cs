@@ -12,8 +12,8 @@ namespace TestHElloWorld
         static void Main(string[] args)
         {
             Console.WriteLine(Greetings());
-            Console.WriteLine("Beleditm!");
-            Console.WriteLine("Kurva");
+            Console.WriteLine("Belediteltem!");
+            Console.WriteLine("MArhas");
             string message = Console.ReadLine();
             Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
             Console.ReadKey();
