@@ -15,6 +15,7 @@ namespace TestHElloWorld
             Console.WriteLine("Belediteltem!");
             Console.WriteLine("MArhas");
             string message = Console.ReadLine();
+            Console.Title = "HIHI";
             Console.WriteLine($"Your message was: {message}" + Environment.NewLine + "Thank you!");
             Console.ReadKey();
         }
